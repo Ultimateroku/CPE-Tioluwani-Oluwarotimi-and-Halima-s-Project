@@ -1,40 +1,41 @@
-# Python Hotel Management System
+Python Music Player System
+A Music Player System Created in Python using tkinter Python TKinter and pygame.
 
-A Hotel Management System Created in python using tkinter [Python TKinter]([https://www.pygame.org/docs/](https://docs.python.org/3/library/tk.html)).
+Basic Instructions
+Launch the GUI and add songs to your library:
 
-## Basic Instructions
-
-Launch the gui and add a room to the database using the add room button 
-1. Create a room using the add room button.
-2. Select a room and book a reservation.
-
-## Download and Run
-
-1. Make sure you have Python installed. Install Python at [python.org](https://www.python.org/downloads/).
-2. Download the folder from github
-3. Create a virtual environment.
-
-```
+Create a playlist using the "New Playlist" button.
+Select a playlist and import songs using the "Import Songs" button.
+Download and Run
+Make sure you have Python installed. Install Python at python.org.
+Download the folder from GitHub
+Create a virtual environment.
 python -m venv environment
-```
 
-4. Activate the virtual environment
+Copy
+Activate the virtual environment
+For Windows
+.\environment\Scripts\Activate
 
-- For windows
+Copy
+For macOS/Linux
+source environment/bin/activate
 
-```
-.\path\to\venv\Scripts\Activate
-```
+Copy
+Install required packages
+pip install pygame pillow
 
-- For macOS/Linux
+Copy
+Run the music_player.py
+python music_player.py
 
-```
-source path/to/venv/bin/activate
-```
-
-5. Run the hotel_management.py
-
-```
-python hotel_management.py
-```
-
+Copy
+Features
+Play, pause, and stop music playback
+Create and manage multiple playlists
+Import music files in various formats (MP3, WAV, OGG, FLAC)
+Track playback progress with a seek bar
+Adjust volume with a slider control
+Toggle shuffle and repeat modes
+Automatic saving of playlists and song data
+Requirements
